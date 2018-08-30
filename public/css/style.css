@@ -1,0 +1,75 @@
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+body#login {
+    display: flex;
+    flex-direction: column;
+}
+
+body#login .container {
+    margin: auto;
+}
+
+body#login footer {
+    margin: auto;
+    width: 320px;
+}
+
+.login-form, .login-error {
+    border: 1px solid black;
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+
+.login-form {
+    width: 100px;
+    margin-top: 32px;
+}
+
+.login-error {
+    width: 90px;
+    margin-top: 4px;
+}
+
+.login-form-heading, .login-error-heading {
+    color: #FFFFFF;
+    margin: 0;
+    padding: 4px;
+    height: 11px;
+    border-bottom: 1px solid black;
+    font-weight: bold;
+}
+
+.login-form-heading {
+    background-color: #0066CC;
+}
+
+.login-error-heading {
+    background-color: indianred;
+}
+
+.login-form-inner, .login-error-inner {
+    padding: 4px;
+}
+
+.login-welcome-text {
+    width: 226px;
+    float: right;
+    margin: 10px;
+}
+
+.login-welcome-text h1 {
+    font-size: 16px;
+}
+
+.login-form input {
+    font-family: sans-serif;
+    font-size: 10px;
+}
+
+.login-form input[type="text"], .login-form input[type="password"] {
+    width: 72px;
+}
